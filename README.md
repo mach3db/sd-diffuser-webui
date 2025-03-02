@@ -82,9 +82,10 @@ pip install -r requirements_windows.txt
 ```
 
 <b>Step 5: Launch gradio based WebUI</b>
-```	
-python app.py
-```
+
+Optional: run ```export CUDA_VISIBLE_DEVICES=1``` in Linux terminal to use your second GPU (it defaults to your first GPU)
+
+```python app.py```
 
 <hr />
 <h3 align='center'>Test environment</h3>
